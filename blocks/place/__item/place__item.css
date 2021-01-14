@@ -1,0 +1,11 @@
+.place__item {
+  margin: 0;
+}
+.place__item:nth-of-type(2) {
+  margin-top: 26px;
+}
+@media screen and (max-width: 746px) {
+  .place__item:nth-of-type(2) {
+    margin-top: 25px;
+  }
+}
