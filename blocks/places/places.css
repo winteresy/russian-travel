@@ -1,0 +1,28 @@
+.places {
+  display: grid;
+  margin: 92px auto 0;
+  width: 76.88%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 80px;
+}
+@media screen and (max-width: 1024px) {
+  .places {
+    width: 90.63%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .places {
+    width: 93.75%;
+  }
+}
+@media screen and (max-width: 746px) {
+  .places {
+    width: 100%;
+    margin-top: 64px;
+    grid-gap: 50px;
+  }
+}
