@@ -5,6 +5,8 @@
   background: #2A2C2F;
   opacity: 0.3;
   z-index: 1;
+  left: 0;
+  top: 0;
   transition: opacity .3s ease-in;
 }
 .cover:hover .cover__overlay {
