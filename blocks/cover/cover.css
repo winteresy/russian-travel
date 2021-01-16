@@ -1,16 +1,12 @@
 .cover {
   position: relative;
   width: 92.5%;
-  height: 0;
-  padding-bottom: 57.76%;
-  box-sizing: border-box;
   margin: 92px auto 0;
   color: #FFF;
 }
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
-    padding-bottom: 62.5%;
   }
 }
 @media screen and (max-width: 768px) {

@@ -2,5 +2,5 @@
   transition: opacity .5s linear;
 }
 .animation-for-links:hover {
-  opacity: .5;
+  opacity: .8;
 }
