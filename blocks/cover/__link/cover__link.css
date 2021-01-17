@@ -5,11 +5,7 @@
   flex-direction: column;
   text-decoration: none;
   color: #FFF;
-  background-image: linear-gradient(
-          rgba(42, 44, 47, 0.3),
-          rgba(42, 44, 47, 0.3)
-        ),
-        url("../../../images/__background.jpg");
+  background-image: url("../../../images/__background.jpg");
   width: 100%;
   min-height: 740px;
   margin: 0;
@@ -36,17 +32,11 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(
-          rgba(42, 44, 47, 0.8),
-          rgba(42, 44, 47, 0.8)
-        ),
-        url("../../../images/__background.jpg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0;
+  background: #2A2C2F;
+  opacity: .3;
   z-index: 1;
   transition: opacity .3s linear;
 }
 .cover__link:hover::before {
-  opacity: 1;
+  opacity: .8;
 }
